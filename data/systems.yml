@@ -1,22 +1,10 @@
 # File keeping track of the list of solar systems in this data folder
 
-- name: Stock (KSP1)
-  folderName: stock
+- name: JNSQ Career
+  folderName: jnsq-career
 
 - name: JNSQ
   folderName: jnsq
-
-- name: Outer Planets
-  folderName: opm
-
-- name: Kerbol Origins
-  folderName: ko
-
-- name: Real Solar System
-  folderName: rss
-
-- name: Stock (KSP2)
-  folderName: stock2
 
 # Template:
 # - name: New Solar System

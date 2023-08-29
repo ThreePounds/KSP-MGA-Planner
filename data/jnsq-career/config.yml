@@ -4,7 +4,7 @@ rendering:
   scale:              1.0e-9        # scale of the objects compared to real values
   fov:                75            # field of view of the camera
   nearPlane:          0.0000001     # near plane distance
-  farPlane:           1000          # far plane distance
+  farPlane:           10000         # far plane distance
 
 solarSystem:
   planetFarSize:      0.05          # size of planet sprites
@@ -23,15 +23,16 @@ orbit:
 
 camera:
   startDist:          100           # distance from sun of start
-  maxDist:            1000           # maximum distance that can be zoomed out
+  maxDist:            1500          # maximum distance that can be zoomed out
   minDistRadii:       1.5           # minimum distance to a body, in radii of the focused body
   dampingFactor:      0.5           # camera motion damping
   rotateSpeed:        0.5           # camera rotation speed
 
 time:
   type:               base          # type of the time system: either base or real
-  hoursPerDay:        6             # number of hours in a day (Kerbal day) (base only)
-  daysPerYear:        426           # number of days per year (Kerbal year) (base only)
+  # initialDate:        0             # the initial date, in seconds (real only)
+  hoursPerDay:        12            # number of hours in a day (Kerbal day) (base only)
+  daysPerYear:        365           # number of days per year (Kerbal year) (base only)
 
 flybySequence:
   radiusSamples:      10            # number of samples radius samples to test when evaluating a sequence feasability
@@ -58,9 +59,9 @@ trajectorySearch:
   maxGenerations:     300           # Maximum number of evolution iterations
 
 editor:
-  defaultOrigin:      4             # default origin body on start (index of Kerbin in the selector)
+  defaultOrigin:      3             # default origin body on start (index of Kerbin in the selector)
   defaultDest:        0             # default destination body on start (index of Moho in the selector)
-  defaultAltitude:    100           # default altitude from the default body (in km above surface)
+  defaultAltitude:    150           # default altitude from the default body (in km above surface)
   defaultMaxDuration: 500           # default duration limit for a trajectory (in number of days)
 
 workers:

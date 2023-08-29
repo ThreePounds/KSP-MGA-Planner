@@ -1,0 +1,67 @@
+# Data extracted from JNSQ configuration files: https://github.com/Galileo88/JNSQ/tree/master/GameData/JNSQ/JNSQ_Bodies
+# 
+
+- !!map
+  id:                 0
+  name:               Sun
+  radius:             175750000
+  atmosphereAlt:      800000
+  mass:               1.2571450461925315e+29
+  stdGravParam:       8390563181802812000
+  soi:                .inf
+  color:              0xffff00
+
+- !!map
+  id:                 4
+  name:               Kerbin
+  radius:             1600000
+  atmosphereAlt:      80000
+  mass:               3.761446743478717e+23
+  stdGravParam:       25105024000000
+  soi:                231587977.95636657
+  orbit:
+    semiMajorAxis:    37525647898.4324
+    eccentricity:     0.02
+    inclination:      0
+    argOfPeriapsis:   0
+    ascNodeLongitude: 0
+  meanAnomaly0:       0
+  epoch:              0
+  orbiting:           0
+  color:              0x89c9c2
+
+- !!map
+  id:                 5
+  name:               Mun
+  radius:             400000
+  mass:               3.408811111277587e+21
+  stdGravParam:       227514279999.99994
+  soi:                1828438.9065572524
+  orbit:
+    semiMajorAxis:    90960000
+    eccentricity:     0.005
+    inclination:      0.5
+    argOfPeriapsis:   165
+    ascNodeLongitude: 45
+  meanAnomaly0:       0
+  epoch:              0
+  orbiting:           4
+  color:              0x9c9fb4
+
+- !!map
+  id:                 6
+  name:               Minmus
+  radius:             160000
+  mass:               188072337173935850000
+  stdGravParam:       12552512000
+  soi:                2247428.3745065867
+  orbit:
+    semiMajorAxis:    146970000
+    eccentricity:     0.03
+    inclination:      6
+    argOfPeriapsis:   315
+    ascNodeLongitude: 75
+  meanAnomaly0:       0.5235987755982988
+  epoch:              0
+  orbiting:           4
+  color:              0x997f66
