@@ -12,7 +12,7 @@
   color:              0xffff00
 
 - !!map
-  id:                 4
+  id:                 1
   name:               Kerbin
   radius:             1600000
   atmosphereAlt:      80000
@@ -31,7 +31,7 @@
   color:              0x89c9c2
 
 - !!map
-  id:                 5
+  id:                 2
   name:               Mun
   radius:             400000
   mass:               3.408811111277587e+21
@@ -45,11 +45,11 @@
     ascNodeLongitude: 45
   meanAnomaly0:       0
   epoch:              0
-  orbiting:           4
+  orbiting:           1
   color:              0x9c9fb4
 
 - !!map
-  id:                 6
+  id:                 3
   name:               Minmus
   radius:             160000
   mass:               188072337173935850000
@@ -63,5 +63,5 @@
     ascNodeLongitude: 75
   meanAnomaly0:       0.5235987755982988
   epoch:              0
-  orbiting:           4
+  orbiting:           1
   color:              0x997f66
